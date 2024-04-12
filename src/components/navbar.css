@@ -1,0 +1,131 @@
+.navbar-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.navbar-navbar {
+  display: flex;
+  padding: 12px 40px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(229, 232, 234, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  justify-content: space-between;
+}
+.navbar-logo {
+  color: rgba(17, 20, 22, 1);
+  height: auto;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: left;
+  font-family: "Montserrat Subrayada";
+  font-weight: 700;
+  line-height: 22.5px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.navbar-textinput {
+  display: none;
+}
+.navbar-depth3-frame1 {
+  gap: 32px;
+  width: auto;
+  height: 40px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.navbar-navlink {
+  display: contents;
+}
+.navbar-search {
+  gap: 12px;
+  width: 260px;
+  height: 40px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: rgba(239, 242, 244, 1);
+}
+.navbar-icon {
+  width: 24px;
+  height: 24px;
+}
+.navbar-text1 {
+  color: rgba(99, 117, 135, 1);
+  width: 100%;
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.navbar-icons {
+  gap: 8px;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: flex-end;
+}
+.navbar-like {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  justify-content: center;
+  background-color: rgba(239, 242, 244, 1);
+}
+.navbar-icon1 {
+  width: 20px;
+  height: 20px;
+}
+.navbar-navlink1 {
+  display: contents;
+}
+.navbar-cart {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  justify-content: center;
+  text-decoration: none;
+  background-color: rgba(239, 242, 244, 1);
+}
+.navbar-icon2 {
+  width: 20px;
+  height: 20px;
+}
+
+
+
+
+@media(max-width: 479px) {
+  .navbar-logo {
+    font-family: Montserrat Subrayada;
+  }
+  .navbar-search {
+    width: auto;
+  }
+}
