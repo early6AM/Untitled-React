@@ -1,0 +1,47 @@
+.banner-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.banner-image {
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.banner-container1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 60%;
+  bottom: 0;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.banner-title {
+  color: #ffffff;
+  font-size: 48px;
+  font-style: normal;
+  font-family: "Manrope";
+  font-weight: 800;
+}
+.banner-button {
+  color: #ffffff;
+  width: auto;
+  height: var(--dl-size-size-small);
+  font-family: "Manrope";
+  border-width: 0px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 12px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  background-color: #197fe5;
+}
+
+
+
+

@@ -3,6 +3,8 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import Navbar from '../components/navbar'
+import ProductInCart from '../components/product-in-cart'
+import Summ from '../components/summ'
 import './cart.css'
 
 const Cart = (props) => {
@@ -25,126 +27,51 @@ const Cart = (props) => {
         <span className="cart-text05">
           <span>Корзина</span>
         </span>
-        <div className="cart-depth4-frame2">
-          <div className="cart-depth5-frame0">
-            <div className="cart-depth6-frame0"></div>
-            <div className="cart-depth6-frame2">
-              <span className="cart-text07">
-                <span>Шелковое халат</span>
-              </span>
-              <span className="cart-text09">
-                <span>Размер: S, Цвет: Белый</span>
-              </span>
-            </div>
-          </div>
-          <span className="cart-text11">
-            <span>$100</span>
-          </span>
-        </div>
-        <div className="cart-depth4-frame21">
-          <div className="cart-depth5-frame01">
-            <div className="cart-depth6-frame01"></div>
-            <div className="cart-depth6-frame21">
-              <span className="cart-text13">Шелковый топ</span>
-              <span className="cart-text14">Размер: S, Цвет: Белый</span>
-            </div>
-          </div>
-          <span className="cart-text15">
-            <span>$100</span>
-          </span>
-        </div>
-        <div className="cart-depth4-frame4">
-          <div className="cart-depth5-frame02">
-            <div className="cart-depth6-frame02"></div>
-            <div className="cart-depth6-frame22">
-              <span className="cart-text17">
-                <span>Шелковые штаны</span>
-              </span>
-              <span className="cart-text19">
-                <span>Размер: S, Цвет: Белый</span>
-              </span>
-            </div>
-          </div>
-          <span className="cart-text21">
-            <span>$50</span>
-          </span>
-        </div>
-        <div className="cart-depth4-frame5">
-          <div className="cart-depth5-frame03">
-            <div className="cart-depth6-frame03"></div>
-            <div className="cart-depth6-frame23">
-              <span className="cart-text23">
-                <span>Шелковые штаны</span>
-              </span>
-              <span className="cart-text25">
-                <span>Размер: S, Цвет: Белый</span>
-              </span>
-            </div>
-          </div>
-          <span className="cart-text27">
-            <span>$50</span>
-          </span>
-        </div>
-        <div className="cart-depth4-frame6">
-          <div className="cart-depth5-frame04">
-            <div className="cart-depth6-frame04"></div>
-            <div className="cart-depth6-frame24">
-              <span className="cart-text29">
-                <span>Шелковые штаны</span>
-              </span>
-              <span className="cart-text31">
-                <span>Размер: S, Цвет: Белый</span>
-              </span>
-            </div>
-          </div>
-          <span className="cart-text33">
-            <span>$50</span>
-          </span>
-        </div>
-        <div className="cart-depth4-frame7">
-          <div className="cart-depth6-frame05">
-            <img
-              alt="Depth8Frame01329"
-              src="/external/depth8frame01329-utd.svg"
-              className="cart-depth8-frame0"
-            />
-          </div>
-          <span className="cart-text35">
+        <ProductInCart
+          productTitle="Шелковый топ"
+          imageSrc="https://untitled-react-orcin.vercel.app/external/tq_lkzgkzhhdc-5btu-200h.png"
+        ></ProductInCart>
+        <ProductInCart
+          productTitle="Шелковые штаны"
+          imageSrc="https://untitled-react-orcin.vercel.app/external/tq_xb6xxkxbka-cpzp-200h.png"
+        ></ProductInCart>
+        <ProductInCart
+          productTitle="Шелковые штаны"
+          price="5000 руб."
+          imageSrc="https://untitled-react-orcin.vercel.app/external/tq_rrytabj38l-ilhl-200h.png"
+        ></ProductInCart>
+        <ProductInCart
+          productTitle="Шелковый топ"
+          price="4200 руб."
+          imageSrc="https://untitled-react-orcin.vercel.app/external/tq_gkfntxsose-pd3g-200h.png"
+        ></ProductInCart>
+        <div className="cart-add-note">
+          <img
+            alt="Depth8Frame01329"
+            src="/external/depth8frame01329-utd.svg"
+            className="cart-icon"
+          />
+          <span className="cart-text07">
             <span>Добавить заметку</span>
           </span>
         </div>
-        <div className="cart-depth4-frame8">
+        <div className="cart-surprise">
           <img
             alt="Depth8Frame01329"
             src="/external/depth8frame01329-63y2.svg"
-            className="cart-depth8-frame01"
+            className="cart-checkbox"
           />
-          <span className="cart-text37">
+          <span className="cart-text09">
             <span>Это подарок</span>
           </span>
         </div>
-        <div className="cart-depth5-frame05">
-          <span className="cart-text39">
-            <span>Итого</span>
+        <Summ price="15 200 руб."></Summ>
+        <Summ text1="Доставка" price="0 руб."></Summ>
+        <Summ price="15 200 руб."></Summ>
+        <div className="cart-button">
+          <span className="cart-text11">
+            <span>Перейти к оформлению заказа</span>
           </span>
-          <span className="cart-text41">
-            <span>$300</span>
-          </span>
-        </div>
-        <div className="cart-depth5-frame06">
-          <span className="cart-text43">Доставка</span>
-          <span className="cart-text44">$10</span>
-        </div>
-        <div className="cart-depth5-frame07">
-          <span className="cart-text45">Налоги</span>
-          <span className="cart-text46">$40</span>
-        </div>
-        <div className="cart-depth4-frame10">
-          <div className="cart-depth5-frame08">
-            <span className="cart-text47">
-              <span>Перейти к оформлению заказа</span>
-            </span>
-          </div>
         </div>
       </div>
     </div>

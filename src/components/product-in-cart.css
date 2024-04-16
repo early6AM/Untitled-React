@@ -1,0 +1,46 @@
+.product-in-cart-depth4-frame2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 1);
+}
+.product-in-cart-info {
+  gap: 16px;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.product-in-cart-image {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.product-in-cart-container {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.product-in-cart-title {
+  font-family: "Manrope";
+}
+.product-in-cart-description {
+  color: rgba(99, 117, 135, 1);
+}
+.product-in-cart-price {
+  font-family: "Manrope";
+}

@@ -1,0 +1,19 @@
+.filter-category-header-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  justify-content: center;
+}
+.filter-category-header-text {
+  width: 100%;
+  padding: var(--dl-space-space-unit);
+  font-style: normal;
+  font-family: "Manrope";
+  font-weight: 700;
+}
+
+
+
+

@@ -1,0 +1,24 @@
+.category-header-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  justify-content: center;
+}
+.category-header-text {
+  width: 100%;
+  font-size: 22px;
+  font-style: normal;
+  font-family: "Manrope";
+  font-weight: 700;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.category-header-root-class-name {
+  margin-top: var(--dl-space-space-twounits);
+}
+
+
